@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2bp063rwah73"]
+
+[ext_resource type="PackedScene" uid="uid://cbjinegnj70ew" path="res://Prefabs/Pipe.tscn" id="1_7u5fs"]
+
+[node name="Pipes" type="Node2D"]
+position = Vector2(1262, 330)
+
+[node name="Bottom" parent="." instance=ExtResource("1_7u5fs")]
+position = Vector2(2.08165e-12, 440)
+
+[node name="Top" parent="." instance=ExtResource("1_7u5fs")]
+position = Vector2(2.08165e-12, -444)
+rotation = 3.14159
